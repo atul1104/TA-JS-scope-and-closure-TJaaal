@@ -6,7 +6,7 @@
    - An array of numbers/string/boolean etc
    - A 'callback' function - a function that is applied to each element of the array (inside of the function 'map')
 
-Have `map` return a new array filled with values that are the result of the 'callback' function on each element of the input array.
+Have `map` return a new array filled with values that are the result of the 'callback' function on each element of the input array..
 
 ```js
 // Your code goes here
@@ -26,8 +26,8 @@ multiplyByTwo(2); //-> 4
 // Your code goes here
 
 // Test Your Code
-let alphabet = '';
-let letters = ['a', 'b', 'c', 'd'];
+let alphabet = "";
+let letters = ["a", "b", "c", "d"];
 forEach(letters, function (char) {
   alphabet += char;
 });
