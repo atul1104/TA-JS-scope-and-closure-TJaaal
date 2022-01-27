@@ -1,4 +1,4 @@
-Create the execution context diagram for the following code snippets:
+Create the execution context diagram for the following code snippets:.
 
 ```js
 function outer() {
@@ -43,8 +43,8 @@ function makeColorChanger(color) {
   };
 }
 
-let blue = makeColorChanger('blue');
-let tomato = makeColorChanger('tomato');
+let blue = makeColorChanger("blue");
+let tomato = makeColorChanger("tomato");
 
 blue();
 tomato();
