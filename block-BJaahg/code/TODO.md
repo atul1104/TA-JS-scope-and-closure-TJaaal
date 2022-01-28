@@ -23,40 +23,40 @@ function fullName(a, b) {
   return a + b;
 }
 
-console.log(window.fullName(firstName, lastName));
+console.log(window.fullName(firstName, lastName)); //AryaStark
 ```
 
 3. Make a Execution Context Diagram for the following JS and write the output.
 
 ```js
-fucntion addOne(num){
+function addOne(num) {
   return num + 1;
 }
-var one = addOne(0);
-var two = addOne(1);
-console.log(one, two);
+var one = addOne(0); // 1
+var two = addOne(1); // 2
+console.log(one, two); // 2
 ```
 
 4. Make a Execution Context Diagram for the following JS and write the output.
 
 ```js
 var one = addOne(0);
-fucntion addOne(num){
+function addOne(num) {
   return num + 1;
 }
 var two = addOne(1);
-console.log(one, two);
+console.log(one, two); // 1, 2
 ```
 
 5. Make a Execution Context Diagram for the following JS and write the output.
 
 ```js
-console.log(addOne(0));
-fucntion addOne(num){
+console.log(addOne(0)); // 1
+function addOne(num) {
   return num + 1;
 }
 var two = addOne(1);
-console.log(two);
+console.log(two); // 2
 ```
 
 6. Make a Execution Context Diagram for the following JS and write the output.
