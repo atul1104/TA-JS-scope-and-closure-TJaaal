@@ -5,7 +5,7 @@
 - Use the start value as the initial value for the loop
 - Passing the current value in test function can be used to determine when to stop the loop
 - When test is true/truthy execute the body function with the current value
-- After each iteration update the current value using update function passing the current value
+- After each iteration update the current value using update function passing the current value.
 
 **You can use normal for loop for this function**
 
@@ -47,11 +47,7 @@ function intersection(arrays) {}
 
 // Test
 console.log(
-  intersection(
-    [5, 10, 15, 20],
-    [15, 88, 1, 5, 7],
-    [1, 10, 15, 5, 20]
-  )
+  intersection([5, 10, 15, 20], [15, 88, 1, 5, 7], [1, 10, 15, 5, 20])
 ); // should log: [5, 15]
 ```
 
@@ -61,8 +57,6 @@ console.log(
 function union(arrays) {}
 
 // Test
-console.log(
-  union([5, 10, 15], [15, 88, 1, 5, 7], [100, 15, 10, 1, 5])
-);
+console.log(union([5, 10, 15], [15, 88, 1, 5, 7], [100, 15, 10, 1, 5]));
 // should log: [5, 10, 15, 88, 1, 7, 100]
 ```
